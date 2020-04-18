@@ -1,0 +1,28 @@
+{
+  "name": "stitch-project",
+  "version": "1.0.0",
+  "description": "stitch starter project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lydiahuang59/stitch-project.git"
+  },
+  "author": "Lydia Huang <lydiahuang59@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lydiahuang59/stitch-project/issues"
+  },
+  "homepage": "https://github.com/lydiahuang59/stitch-project#readme",
+  "dependencies": {
+    "mongodb-stitch-browser-sdk": "^4.8.0",
+    "mz": "^2.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
